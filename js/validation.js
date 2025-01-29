@@ -14,7 +14,7 @@ function form() {
     document.querySelector("#err3").innerHTML = "";
     document.querySelector("#err4").innerHTML = "";
     let isValid = true;
-    // Name Validation
+    // Name validation starts from here please consider it and the. start the further process
     if (name === "") {
         document.querySelector("#err1").innerHTML = "Please enter your name";
         isValid = false;
@@ -22,7 +22,7 @@ function form() {
         document.querySelector("#err1").innerHTML = "Please enter a valid name";
         isValid = false;
     }
-    // Email Validation
+    // Email Validation start from here please consider it once and then commit..
     if (email === "") {
         document.querySelector("#err2").innerHTML = "Please enter your email";
         isValid = false;
@@ -30,7 +30,7 @@ function form() {
         document.querySelector("#err2").innerHTML = "Please enter a valid email";
         isValid = false;
     }
-    // Phone Number Validation
+    //Phone number validation starts from here please consider and follow other steps
     if (number === "") {
         document.querySelector("#err3").innerHTML =
             "Please enter your phone number";
