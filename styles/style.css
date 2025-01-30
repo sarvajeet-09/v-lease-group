@@ -1537,6 +1537,12 @@ hr {
   height: 800px;
   background-color: #071C50;
 }
+@media(max-width:768px){
+  .one-fourty-plus{
+    height: 400px;
+  
+  }
+}
 .one-fourty-plus h1{
   color: #fff;
   margin-bottom: 0px !important;
@@ -1576,7 +1582,30 @@ hr {
 .success-project-carousel {
   padding: 30px 250px;
 }
-
+@media(max-width:768px){
+  .succes-story .total-content-div .success-story-back-text h1 {
+    font-size: 80px;
+    opacity: 0.1;
+    text-align: center;
+    font-weight: 700;
+  }
+  .success-project-carousel {
+    padding: 10px 0px;
+  }
+}
+@media(max-width:400px){
+  .succes-story .total-content-div .success-story-back-text h1 {
+    font-size: 45px;
+    opacity: 0.1;
+    text-align: center;
+    font-weight: 700;
+  }
+  .succes-story .total-content-div .overlay-text h1{
+    color: #0232aa;
+    font-size: 20px;
+    
+  }
+}
 .card-success .content-succes {
   padding: 20px 20px 20px 10px;
   background-color: #072572;
@@ -1603,3 +1632,23 @@ hr {
   font-weight: 300;
 }
 /* success story end */
+/* award start */
+.award{
+  background-image: url(../images/banner-succes/indospace_awards_bd_image.jpg);
+}
+.award .award-year-heading{
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 0px !important;
+} 
+.award .item ul li{
+text-decoration: none;
+list-style: none;
+color: #fff;
+line-height: 45px;
+font-size: 18px;
+} 
+.award .item ul{
+  padding-left: 0px !important;
+}
+/* award end */
