@@ -1652,3 +1652,82 @@ font-size: 18px;
   padding-left: 0px !important;
 }
 /* award end */
+.about-banner {
+  padding: 100px 0px;
+  text-align: center;
+  background-color: #6934D2;
+}
+
+.about-banner .banner-text h1 {
+  color: #fff;
+  font-weight: 300;
+}
+
+.about-page-content .about-para p {
+  text-align: justify;
+  font-size: 20px;
+  line-height: 35px;
+}
+.about-image .about-page-img{
+  position: relative;
+}
+.about-image .about-page-img .img{
+  position: relative;
+}
+.about-image .about-page-img .overly-img{
+  position: absolute;
+  bottom: 70%;
+}
+.at-a-glance .heading h2{
+font-size: 42px;
+font-weight: 400;
+color: #C53970;
+}
+.at-a-glance .heading h3{
+  font-size: 105px;
+  font-weight: 300;
+  letter-spacing: 12px;
+  color: #6934D2;
+}
+@media(max-width:768px){
+  .at-a-glance .heading h2{
+font-size: 36px;
+font-weight: 400;
+color: #C53970;
+}
+.at-a-glance .heading h3{
+  font-size: 80px;
+  font-weight: 300;
+  letter-spacing: 12px;
+  color: #6934D2;
+}
+}
+@media(max-width:400px){
+  .at-a-glance .heading h2{
+font-size: 30px;
+font-weight: 400;
+color: #C53970;
+}
+.at-a-glance .heading h3{
+  font-size: 60px;
+  font-weight: 300;
+  letter-spacing: 12px;
+  color: #6934D2;
+}
+}
+.brochure-div{
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #6934D2;
+  color: #fff;
+  font-size: 18px;
+}
+.brochure-div:hover{
+  color: #fff;
+}
+.brochure-div i{
+  padding: 7px 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #000;
+}
