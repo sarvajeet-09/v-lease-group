@@ -1755,3 +1755,27 @@ color: #C53970;
         font-size: 18px;
         line-height: 35px;
     }
+    /* our sponsor start */
+    .sponsored .sponsored-content{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 120px 50px;
+  }
+  .sponsored .sponsored-content h2{
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 36px;
+      font-weight: 300;
+  }
+  .sponsored .sponsored-content p{
+      color: #fff;
+      text-align: center;
+  }
+  .sponsored .sponsored-content a{
+      font-size: 20px;
+      color: #fff;
+      text-decoration: none;
+  }
+    /* our sponsor end */
