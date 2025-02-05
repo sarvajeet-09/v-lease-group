@@ -1602,8 +1602,12 @@ hr {
   }
  .total-content-div .overlay-text h1{
     color: #0232aa;
-    font-size: 20px;
+    font-size: 16px;
     
+  }
+  .total-content-div .overlay-text{
+    position: absolute;
+    bottom: 5%;
   }
 }
 .card-success .content-succes {
