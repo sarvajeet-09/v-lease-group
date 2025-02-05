@@ -1595,7 +1595,7 @@ hr {
 }
 @media(max-width:400px){
    .total-content-div .success-story-back-text h1 {
-    font-size: 45px;
+    font-size: 40px;
     opacity: 0.1;
     text-align: center;
     font-weight: 700;
